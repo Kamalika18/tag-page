@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAG page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Josefin sans';
+    background-color: black;
+    height:100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+form {
+	position:absolute;
+	width:60px;
+	height:60px;
+	left:50%;
+	top:10%;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:5px;
+	transform:translate(-50%,-50%);
+	border-radius:50px;
+	border:4px solid #fff;
+	box-sizing:border-box;
+	background: #fff;
+	transition:1.5s;
+}
+input {
+	position: absolute;
+	top:0;
+	left:0;
+	border:0;
+	width:100%;
+	height:52px;
+	line-height:75px;
+	outline:0;
+	display:none;
+	font-size:16px;
+	border-radius:25px;
+	padding:0 20px;
+	font-family: arial;
+}
+i.fa{
+	position:absolute;
+	top:0;
+	right:0;
+	width:52px;
+	height:52px;
+	box-sizing:border-box;
+	border-radius:50%;
+	text-align:center;
+	font-size:25px;
+	transition:1.5s;
+	color:yellow;
+	background: black;
+	padding:15px;
+}	
+form:hover{
+    width:400px;
+    cursor:pointer;
+}
+form:hover input {
+	display:block;
+}
+.box{
+    background-color: #404040;
+    display: table-cell;
+    border-radius:5px;
+}
+.txt{
+    color: yellow;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    padding: 10px 0;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    width: 10%;
+}
+
+#blogs{
+	text-align:left;
+	margin-left:10%;
+	margin-right:10%;
+	padding:5%;
+
+}
+.header {
+	padding:20px;
+	text-align:left;
+	background: black;
+	color:white;
+	font-size:10vw;
+	margin-bottom:20px;
+}
+.footer {
+	padding:10px;
+	text-align:left;
+	background-color: black;
+	color:white;
+	font-size:30px;
+	margin-top:1px;
+}
+img{
+	height: 150px;
+	width: 150px;
+	vertical-align: top;
+	border-radius: 5px;
+}
+p {
+	display:inline-block;
+}
+.blog-text {
+	font-size:25px;
+	font-color:white;
+}
+</style>
+
+<body>
+<div class="header">
+    <h1>NAVBAR</h1>
+</div>
+<div class="srch">
+	<form action="">
+		<input type="Search" placeholder="Sarch tags">
+		<i class="fa fa-search"></i></form>
+</div>		
+<div id="blogs">
+	<div class="wrapper">
+    <div class="box">
+        <div class="txt">Technology</div>
+    </div>
+    <div class="middle"></div>
+    <div class="box">
+        <div class="txt">Design</div>
+    </div>
+    <div class="middle"></div>
+    <div class="box">
+        <div class="txt">Quarantine</div>
+    </div>
+    </div>
+    <div class="blog-text">
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://website-assets.teamwork.com/offload/app/uploads/2019/02/13231539/12-big-mistakes-04-blog-1-4.png">
+		<span><p>20 June 2020<br><b>Road map towards learning Web Dev</b><br>by Vaishnavi<br>3 minutes</p></span>
+	</div>
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://maxcdn.icons8.com/app/uploads/2020/01/file-explorer-mobile-app-design.png">
+		<span><p>20 June 2020<br><b>Top UI/UX trends of 2020</b><br>by Shreyan</p></span>
+	</div>
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://sme.asia/en/wp-content/uploads/2018/01/branding.jpg">
+		<span><p>20 June 2020<br><b>How to build a brand image</b><br>by Manan</p></span>
+	</div>
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://m.economictimes.com/thumb/msid-75616788,width-1200,height-900,resizemode-4,imgsize-491202/covidistock.jpg">
+		<span><p>20 June 2020<br><b>Analysis of economy after lockdown</b><br>by Aaryan</p></span>
+	</div>
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/is-honey-good-for-you-1296x728-feature.jpg?w=1155&h=1528">
+		<span><p>20 June 2020<br><b>Can honey get any better?</b><br>by Anwesha</p></span>
+	</div>
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/SaaS-Design-Trends-feature.png">
+		<span><p>20 June 2020<br><b>How important are illustrations for your start up?</b><br>by Anwesha</p></span>
+    </div>
+    <div class="blog p-5 my-3 bg-dark text-white">
+    	<img src="https://paautism.org/wp-content/uploads/2020/04/Mask1.png">
+		<span><p>20 June 2020<br><b>Mask yourselves.<br>Quarantine ain't over yet.</b><br>by Rishika</p></span>
+	</div>
+	<div class="blog p-5 my-3 bg-dark text-white">
+		<img src="https://cdn.dribbble.com/users/2418882/screenshots/8171392/rick-morty.png">
+		<span><p>20 June 2020<br><b>Is Rick and Morty better than Walter and Jesse?</b><br>by Rishika</p></span>
+	</div>	    
+</div>
+</div>
+<div class="footer">
+	<p>FOOTER</p>
+</div>	
+</body>
+</head>
+</html>
+
